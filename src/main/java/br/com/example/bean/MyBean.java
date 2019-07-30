@@ -19,7 +19,7 @@ public class MyBean {
         return count;
     }
 
-    @TransactionAttribute(TransactionAttributeType.SUPPORTS)
+    @TransactionAttribute(TransactionAttributeType.MANDATORY)
     public void add(){
         count++;
     }
